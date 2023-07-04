@@ -1,0 +1,133 @@
+body {
+  font-family: "Poppins", sans-serif !important; 
+}
+
+.content-container {
+  display: flex;
+  background-color: #f8f9fa; /* Light gray background */
+  min-height: 100vh;
+}
+
+.left-panel {
+  flex: 0 0 200px; /* Set the width of the left panel */
+  border-right: 3px solid #dee2e6; /* Add a right border */
+  padding: 20px; /* Add some padding */
+}
+
+.content {
+  flex: 1; /* Take up remaining space */
+  padding: 20px; /* Add some padding */
+}
+
+.image-container {
+  flex: 0 0 300px; /* Set the width of the image container */
+  padding: 20px; /* Add some padding */
+}
+
+.pagefooter {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: rgb(43, 161, 163);
+  text-align: center;
+  color: rgb(61, 46, 229);
+}
+
+.navbar {
+  background-color: rgb(43, 161, 163);
+}
+
+section {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(144, 165, 166);
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+
+a, a:visited {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.signinbutton {
+  margin-top: 2rem !important; 
+  border-radius: 0.5rem !important; 
+}
+
+button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  background-color: rgb(226, 156, 15);
+  border: none; /* Add this line to include a border */
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}

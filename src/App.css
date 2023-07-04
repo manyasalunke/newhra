@@ -1,0 +1,11 @@
+.container {
+    width: 50%;
+    max-width: 50%;
+    padding: 5;
+    margin: 6;
+  }
+  
+  .black-link {
+    color: black;
+  }
+  
